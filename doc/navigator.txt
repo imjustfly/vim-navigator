@@ -1,0 +1,27 @@
+*navigator.txt*  Plugin to navigate between cursor positions
+
+Author: Justfly Ho <https://github.com/imjustfly>
+License: Same terms as Vim itself (see |license|)
+
+This plugin is only available if 'compatible' is not set.
+
+===============================================================================
+INTRODUCTION                                           *navigator-introduction*
+
+Vim-navigator is a simple plugin which acts like web browser's navigator. You
+can mark the positions under current cursor and move forward or backward
+between them.
+
+===============================================================================
+COMMANDS                                                   *navigator-commands*
+
+                                                           *navigator-:NavMark*
+:NavMark                Mark the current cursor position.
+
+                                                           *navigator-:NavBack*
+:NavBack                Move to previous cursor position.
+
+                                                        *navigator-:NavForward*
+:NavForward             Move to next cursor position.
+
+ vim:tw=78:ts=8:ft=help:norl:
